@@ -1,0 +1,15 @@
+== Rails PDF to XLS
+
+* Rails version '4.2.0'
+
+* System dependencies
+
+--#-- Linux
+- gnumeric
+
+--#-- Rails
+- paperclip ~> 4.2
+
+
+
+

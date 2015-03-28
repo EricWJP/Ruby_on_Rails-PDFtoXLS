@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Ups</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @ups.each do |up| %>
+      <tr>
+        <td><%= up.name %></td>
+        <td><%= link_to 'Show', up %></td>
+        <td><%= link_to 'Edit', edit_up_path(up) %></td>
+        <td><%= link_to 'Destroy', up, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Up', new_up_path %>
