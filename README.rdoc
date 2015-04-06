@@ -1,13 +1,17 @@
-== Rails PDF to XLS
+== Rails PDF to XLS (regex)
 
+--#-- Version
+
+* Ruby version  '2.2.0'
 * Rails version '4.2.0'
 
-* System dependencies
+--#-- System dependencies
 
---#-- Linux
+# Linux
 - gnumeric
+- poppler-utils or catdod
 
---#-- Rails
+# Rails
 - paperclip ~> 4.2
 
 
