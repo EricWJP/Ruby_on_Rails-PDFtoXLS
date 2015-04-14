@@ -9,7 +9,7 @@
 
 # Linux
 - gnumeric
-- poppler-utils or catdod
+- poppler-utils or catdoc
 
 # Rails
 - paperclip ~> 4.2
